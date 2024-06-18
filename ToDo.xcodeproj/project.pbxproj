@@ -32,6 +32,7 @@
 		CDE95D2D2C2198F40074B66C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDE95D2C2C2198F40074B66C /* GoogleService-Info.plist */; };
 		CDE95D2F2C219D5F0074B66C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE95D2E2C219D5F0074B66C /* HeaderView.swift */; };
 		CDE95D312C21A8CF0074B66C /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE95D302C21A8CF0074B66C /* TLButton.swift */; };
+		CDE95D332C21BDA10074B66C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE95D322C21BDA10074B66C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,7 @@
 		CDE95D2C2C2198F40074B66C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CDE95D2E2C219D5F0074B66C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CDE95D302C21A8CF0074B66C /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		CDE95D322C21BDA10074B66C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				CDE95D2C2C2198F40074B66C /* GoogleService-Info.plist */,
 				CD31E33F2C2177D3002F95C5 /* ToDoApp.swift */,
 				CD31E3432C2177D3002F95C5 /* Assets.xcassets */,
+				CDE95D322C21BDA10074B66C /* Extensions.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				CD31E3712C218F65002F95C5 /* ToDoListViewViewModel.swift in Sources */,
 				CD31E3752C218F92002F95C5 /* LoginViewViewModel.swift in Sources */,
 				CD31E3402C2177D3002F95C5 /* ToDoApp.swift in Sources */,
+				CDE95D332C21BDA10074B66C /* Extensions.swift in Sources */,
 				CD31E3692C218F29002F95C5 /* UserModel.swift in Sources */,
 				CD31E3612C218EE6002F95C5 /* NewItemView.swift in Sources */,
 				CD31E3732C218F72002F95C5 /* NewItemViewViewModel.swift in Sources */,

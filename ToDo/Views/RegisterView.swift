@@ -11,7 +11,7 @@ struct RegisterView: View {
     @StateObject var viewModel = RegisterViewViewModel()
     var body: some View {
         VStack(content: {
-            HeaderView(title: "Register", subTitle: "Start organizing today", angle: -15, backgroundColor: .orange)
+            HeaderView(title: "Register", subTitle: "Start organizing today", angle: -15, backgroundColor: .orange).offset(y:-45)
             Form(content: {
                 TextField("Full Name", text: $viewModel.fullName)
                     .autocorrectionDisabled(true).textInputAutocapitalization(.none)
@@ -20,7 +20,7 @@ struct RegisterView: View {
                 SecureField("Password", text: $viewModel.password)
                     .autocorrectionDisabled(true).textInputAutocapitalization(.none)
                 TLButton(label: "Create Account", backgroundColor: .green){
-                    // attempt registration
+                    viewModel.register()
                 }
             })
             Spacer()
@@ -31,6 +31,6 @@ struct RegisterView: View {
 
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
-        RegisterView(fullName: "", email: "", password: "")
+        RegisterView()
     }
 }
